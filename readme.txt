@@ -37,7 +37,9 @@ $ git log --pretty=oneline                                      //查看提交�
 $ git reset --hard HEAD^                                        //调整HEAD版本，^上一个，^^上上一个，HEAD~100上100个
 $ git reset --hard commit_id                                    //调整HEAD版本为commit_id的版本
 
-------------2018.09.14 第四节
+------------2018.09.17 第四节
 暂存区是Git非常重要的概念，弄明白了暂存区，就弄明白了Git的很多操作到底干了什么。
 git add命令实际上就是把要提交的所有修改放到暂存区（Stage）
 执行git commit就可以一次性把暂存区的所有修改提交到分支。
+没有add修改不会被commit提交到分支中。
+
